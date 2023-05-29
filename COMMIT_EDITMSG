@@ -1,0 +1,28 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   assets/add_cart.png
+#	new file:   assets/carrinho-de-compras.png
+#	new file:   assets/logo 2.png
+#	new file:   assets/logo.jpg
+#	new file:   assets/pizzaria.png
+#	new file:   assets/to-do-list.png
+#	new file:   assets/trolley.png
+#	new file:   cardapio.html
+#	new file:   mocks/cardapio.js
+#	new file:   mocks/pedidos.js
+#	new file:   pages/carrinho.css
+#	new file:   pages/carrinho.html
+#	new file:   pages/carrinho.js
+#	new file:   pages/pedidos.css
+#	new file:   pages/pedidos.html
+#	new file:   pages/pedidos.js
+#	new file:   scripts/cardapio.js
+#	new file:   stylesheets/cardapio.css
+#

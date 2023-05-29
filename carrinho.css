@@ -1,0 +1,11 @@
+body{
+background-color: black;
+color: white;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    text-decoration: underline;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/cardapio.css">
+    <script src="./mocks/cardapio.js"></script>
+    <title>Cardapio</title>
+</head>
+<body>
+    <span id="black" class="hidden"></span>
+    <header>
+        <img src="./assets/logo.jpg" alt="logo.png">
+        <nav>
+            <ul>
+                <li>
+                    <a href="./pages/carrinho.html">Carrinho</a>
+                </li>
+                <li>
+                    <a href="./pages/pedidos.html">Pedidos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    </main>
+    <div class="window hidden">
+        <header id="header_window">
+            <h1 onclick="displays()">X</h1>
+            <img src="./assets/add_cart.png" onclick="addCart(this)" />
+        </header>        
+        <h1>Informações da pizza</h1>
+    </div>
+    <p></p>
+
+    <div id="console-output"></div>
+
+    <script>
+        // Redireciona as mensagens do console para exibição na tela
+        (function() {
+          var oldConsoleLog = console.log;
+          console.log = function(message) {
+            var consoleOutput = document.getElementById("console-output");
+            if (consoleOutput) {
+              consoleOutput.innerHTML += message + "<br>";
+            }
+            oldConsoleLog.apply(console, arguments);
+          };
+        })();
+      </script>
+      
+
+</body>
+<script src="./scripts/cardapio.js"></script>
+</html>
